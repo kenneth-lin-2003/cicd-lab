@@ -1,7 +1,5 @@
 import { buildApp } from './app';
 
-const wrongType: string = 123;
-
 const app = buildApp({ logger: true });
 const port = Number(process.env.PORT || 3000);
 const host = process.env.HOST || '0.0.0.0';
